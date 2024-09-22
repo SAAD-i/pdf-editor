@@ -1,0 +1,29 @@
+# Python virtual environment
+env/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Next.js build output
+frontend/.next/
+frontend/out/
+
+# Node modules
+frontend/node_modules/
+
+# Environment variables
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# SQLite database
+backend/*.sqlite3
+backend/db.sqlite3
