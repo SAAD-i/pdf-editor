@@ -49,7 +49,7 @@ const PdfEditor = () => {
   };
 
   return (
-    <div className="text-white mx-auto container max-w-5xl">
+    <div className="text-white h-screen mx-auto container max-w-5xl">
       {!file ? (
         // File upload section, visible when no file is selected
         <div className="container mx-auto flex flex-col md:flex-row items-center md:justify-between my-4 md:my-6">
