@@ -133,7 +133,7 @@ const Navbar = () => {
       {/* Mobile menu */}
       {isMenuOpen && (
         <div className="md:hidden py-4">
-          <ul className="flex flex-col items-center gap-4">
+          <ul className="flex flex-col text-white items-center gap-4">
             <NavLink href="/">Home</NavLink>
             <NavLink href="/edit">Edit</NavLink>
             <NavLink href="/about">About</NavLink>
