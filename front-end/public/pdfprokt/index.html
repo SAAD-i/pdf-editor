@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="pppp" style="height: 100vh"></div>
+
+
+<script src="pdfprokt.js"></script>
+<script>
+    PDFPROKt.load({
+        container: "#pppp",
+        document: "pdf.pdf" // Add the path to your document here.
+    })
+        .then(function(instance) {
+            console.log("PDFPROKt loaded", instance);
+        })
+        .catch(function(error) {
+            console.error(error.message);
+        });
+</script>
+</body>
+</html>
