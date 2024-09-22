@@ -27,3 +27,6 @@ Thumbs.db
 # SQLite database
 backend/*.sqlite3
 backend/db.sqlite3
+backend/.env
+
+frontend/.env
